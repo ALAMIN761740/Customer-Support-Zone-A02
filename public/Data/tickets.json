@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "title": "Login Issue",
+    "description": "User reports that they cannot log in even after entering correct credentials. The system repeatedly shows an 'Invalid Email or Password' message. The issue began after the recent update and needs urgent investigation.",
+    "customer": "Rahim Uddin",
+    "priority": "High",
+    "status": "open",
+    "createdAt": "2026-03-01"
+  },
+  {
+    "id": 2,
+    "title": "Payment Gateway Error",
+    "description": "During checkout, the payment process fails and displays a transaction error. The customer attempted multiple payment methods but none were successful. This issue is affecting overall sales performance.",
+    "customer": "Karim Ahmed",
+    "priority": "High",
+    "status": "open",
+    "createdAt": "2026-03-02"
+  },
+  {
+    "id": 3,
+    "title": "Password Reset Not Working",
+    "description": "The password reset email is not being delivered to the customer. They have checked spam and junk folders without success. The reset functionality may have backend configuration issues.",
+    "customer": "Nusrat Jahan",
+    "priority": "Medium",
+    "status": "open",
+    "createdAt": "2026-03-02"
+  },
+  {
+    "id": 4,
+    "title": "Profile Update Failed",
+    "description": "User cannot update their profile information including phone number and image. After submitting changes, the page reloads without saving the new data. No error message is displayed.",
+    "customer": "Tanvir Hasan",
+    "priority": "Low",
+    "status": "open",
+    "createdAt": "2026-03-03"
+  },
+  {
+    "id": 5,
+    "title": "Dashboard Not Loading",
+    "description": "Customer reports that the dashboard page loads as a blank screen after login. The issue appears only for specific accounts. It might be related to API data fetching failure.",
+    "customer": "Sadia Islam",
+    "priority": "High",
+    "status": "open",
+    "createdAt": "2026-03-03"
+  },
+  {
+    "id": 6,
+    "title": "Order History Missing",
+    "description": "Previous orders are not visible in the user's account section. The customer confirmed they had completed transactions last month. Database retrieval may not be working correctly.",
+    "customer": "Fahim Chowdhury",
+    "priority": "Medium",
+    "status": "open",
+    "createdAt": "2026-03-04"
+  },
+  {
+    "id": 7,
+    "title": "Notification Delay",
+    "description": "Push notifications are delivered several hours late. This delay affects order confirmations and account alerts. Notification service may be experiencing performance issues.",
+    "customer": "Mim Akter",
+    "priority": "Low",
+    "status": "open",
+    "createdAt": "2026-03-04"
+  },
+  {
+    "id": 8,
+    "title": "App Crash on Startup",
+    "description": "The mobile app crashes immediately after launching. This issue started after the latest update release. Multiple users have reported similar problems.",
+    "customer": "Sabbir Rahman",
+    "priority": "High",
+    "status": "open",
+    "createdAt": "2026-03-05"
+  },
+  {
+    "id": 9,
+    "title": "File Upload Error",
+    "description": "Users are unable to upload PDF documents successfully. The upload process stops midway and shows a timeout error. Server storage limits should be checked.",
+    "customer": "Arif Hossain",
+    "priority": "Medium",
+    "status": "open",
+    "createdAt": "2026-03-05"
+  },
+  {
+    "id": 10,
+    "title": "Search Feature Bug",
+    "description": "Search results do not match the entered keywords. Even exact phrases return unrelated products. The indexing system may require reconfiguration.",
+    "customer": "Jannat Ara",
+    "priority": "Low",
+    "status": "open",
+    "createdAt": "2026-03-06"
+  },
+  {
+    "id": 11,
+    "title": "Email Verification Failed",
+    "description": "Verification link sent to the user expires immediately after clicking. The system displays an invalid token message. Email verification service needs debugging.",
+    "customer": "Rakib Hasan",
+    "priority": "Medium",
+    "status": "open",
+    "createdAt": "2026-03-06"
+  },
+  {
+    "id": 12,
+    "title": "Slow Page Loading",
+    "description": "Website pages take longer than usual to load on mobile devices. The problem seems related to large image files and unoptimized scripts. Performance optimization is required.",
+    "customer": "Tania Sultana",
+    "priority": "Low",
+    "status": "open",
+    "createdAt": "2026-03-07"
+  },
+  {
+    "id": 13,
+    "title": "Subscription Not Activated",
+    "description": "Customer completed payment for a premium subscription but access was not granted. Payment record exists in the system. Subscription activation logic may be broken.",
+    "customer": "Shakib Al Mamun",
+    "priority": "High",
+    "status": "open",
+    "createdAt": "2026-03-07"
+  },
+  {
+    "id": 14,
+    "title": "UI Layout Broken",
+    "description": "The layout appears misaligned on tablet screens. Some buttons overlap with text content. Responsive design settings need to be reviewed.",
+    "customer": "Farzana Akter",
+    "priority": "Medium",
+    "status": "open",
+    "createdAt": "2026-03-08"
+  },
+  {
+    "id": 15,
+    "title": "Download Button Not Working",
+    "description": "Clicking the download button does not trigger any action. No file is generated or downloaded. JavaScript event handling might be failing.",
+    "customer": "Imran Hossain",
+    "priority": "High",
+    "status": "open",
+    "createdAt": "2026-03-08"
+  },
+  {
+    "id": 16,
+    "title": "Chat Support Offline",
+    "description": "Live chat support always shows offline even during working hours. Customers cannot connect with support agents. Chat server configuration should be checked.",
+    "customer": "Sumi Khatun",
+    "priority": "Low",
+    "status": "open",
+    "createdAt": "2026-03-09"
+  },
+  {
+    "id": 17,
+    "title": "Incorrect Invoice Generated",
+    "description": "Invoice generated after checkout shows incorrect total amount. Discount calculations are not being applied properly. Billing logic requires validation.",
+    "customer": "Mehedi Hasan",
+    "priority": "High",
+    "status": "open",
+    "createdAt": "2026-03-09"
+  },
+  {
+    "id": 18,
+    "title": "Session Timeout Too Fast",
+    "description": "User sessions expire within a few minutes of inactivity. This causes inconvenience when filling out long forms. Session timeout configuration may need adjustment.",
+    "customer": "Rupa Das",
+    "priority": "Medium",
+    "status": "open",
+    "createdAt": "2026-03-10"
+  },
+  {
+    "id": 19,
+    "title": "Language Switch Not Working",
+    "description": "Changing language from the settings page does not update the interface language. The selection resets after page reload. Localization settings might not be saved.",
+    "customer": "Hasibul Islam",
+    "priority": "Low",
+    "status": "open",
+    "createdAt": "2026-03-10"
+  },
+  {
+    "id": 20,
+    "title": "Data Sync Problem",
+    "description": "User data is not syncing across multiple devices. Changes made on one device do not reflect on another. Backend synchronization service should be reviewed.",
+    "customer": "Nabila Rahman",
+    "priority": "High",
+    "status": "open",
+    "createdAt": "2026-03-11"
+  }
+]
