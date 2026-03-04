@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaRegCalendarAlt } from 'react-icons/fa';
 
 const CustomerTickets = ({ ticket, onSelect }) => {
 
@@ -30,16 +31,18 @@ const CustomerTickets = ({ ticket, onSelect }) => {
       {/* Bottom Section */}
       <div className="flex justify-between items-center mt-4">
 
-        <div className="flex gap-2 text-sm">
+        <div className="flex gap-3 text-sm">
           <span className="font-medium">#{ticket.id}</span>
           <span className={`font-semibold ${priorityColor}`}>
             {ticket.priority}
           </span>
         </div>
 
-        <div className="text-right text-sm text-gray-500">
+        <div className="flex gap-3 text-sm text-gray-500">
           <p>{ticket.customer}</p>
-          <p>{ticket.createdAt}</p>
+          <div className="flex items-center gap-1">
+            <FaRegCalendarAlt className="text-gray-400" /> {ticket.createdAt}
+          </div>
         </div>
 
       </div>

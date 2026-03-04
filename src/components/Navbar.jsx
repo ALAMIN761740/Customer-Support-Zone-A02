@@ -2,7 +2,8 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="max-w-7xl  mx-auto px-6 py-4 flex items-center justify-between">
+    <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between
+                    bg-white shadow-md rounded-lg sticky top-0 z-50">
       
       {/* Left - Logo */}
       <div className="flex-1">
@@ -23,8 +24,8 @@ const Navbar = () => {
         {/* Gradient New Ticket Button */}
         <button className="px-4 py-2 rounded-lg text-white font-semibold
                    bg-[linear-gradient(to_bottom_right,#632EE3_10%,#9F62F2_90%)]
-                   hover:opacity-90 transition">
-        + New Ticket
+                   hover:opacity-90 transition shadow-lg">
+          + New Ticket
         </button>
       </div>
 
@@ -35,7 +36,7 @@ const Navbar = () => {
         </div>
         <ul
           tabIndex={0}
-          className="menu menu-sm dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+          className="menu menu-sm dropdown-content mt-3 p-2 shadow-lg bg-base-100 rounded-box w-52"
         >
           <li><a>Home</a></li>
           <li><a>FAQ</a></li>
@@ -43,10 +44,11 @@ const Navbar = () => {
           <li><a>Blog</a></li>
           <li><a>Download</a></li>
           <li><a>Contact</a></li>
-          <li><a className="block text-center px-4 py-2 rounded-lg text-white font-semibold
-                bg-[linear-gradient(to_bottom_right,#632EE3_10%,#9F62F2_90%)]
-                hover:opacity-90 transition">
-                    + New Ticket
+          <li>
+            <a className="block text-center px-4 py-2 rounded-lg text-white font-semibold
+                          bg-[linear-gradient(to_bottom_right,#632EE3_10%,#9F62F2_90%)]
+                          hover:opacity-90 transition shadow-lg">
+              + New Ticket
             </a>
           </li>
         </ul>
