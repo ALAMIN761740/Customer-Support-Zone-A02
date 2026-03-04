@@ -2,8 +2,8 @@ import React from 'react';
 
 const TicketCard = () => {
     return (
-        <div>
-            
+        <div className=''>
+            <h2>Ticket Card</h2>
         </div>
     );
 };
