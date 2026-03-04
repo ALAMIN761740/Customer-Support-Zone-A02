@@ -1,4 +1,4 @@
-import './App.css'
+
 import Footer from './components/Footer'
 import Navbar from './components/Navbar'
 import Banner from './components/Banner'
@@ -6,7 +6,7 @@ import TaskStatus from './components/TaskStatus'
 import CustomerTickets from './components/CustomerTickets'
 import React, { useState, useEffect } from 'react'
 import { ToastContainer, toast } from 'react-toastify'
-import 'react-toastify/dist/ReactToastify.css'
+
 
 function App() {
   const [tickets, setTickets] = useState([])

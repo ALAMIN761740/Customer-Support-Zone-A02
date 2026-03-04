@@ -1,9 +1,9 @@
-# React Basics README
+
 
 ## Project Links
-- **Live Demo:** [Live Link]  
- 
-- **GitHub Repository:** [GitHub Link]
+- **Live Demo:** [Live Link]  my-customer-support-zone-12dftg56dfgf4436sf3.surge.sh
+
+- **GitHub Repository:** [GitHub Link] https://github.com/ALAMIN761740/Customer-Support-Zone-A02
 
 ---
 
