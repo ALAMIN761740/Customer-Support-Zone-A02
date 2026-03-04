@@ -1,33 +1,64 @@
 import React from "react";
+import bgImage from "../assets/vector1.png";
+import bgImage2 from "../assets/vector3.png";
 
 const Banner = ({ inProgressCount, resolvedCount }) => {
   return (
-    <section className="py-16 bg-gradient-to-r from-[#632EE3] to-[#9F62F2]">
-      <div className="max-w-7xl mx-auto px-6 text-white flex flex-col md:flex-row justify-between items-center gap-8">
-        
-        {/* Left: Title & Subtitle */}
-        <div className="flex-1 text-center md:text-left">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Welcome to CS — Ticket System
-          </h1>
-          <p className="text-lg md:text-xl opacity-90">
-            Manage all customer tickets efficiently and keep track of progress.
-          </p>
+    <section className="max-w-7xl mx-auto px-6 py-12">
+
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+
+        {/* In Progress Card */}
+        <div
+          className="relative rounded-2xl overflow-hidden text-white flex items-center justify-center"
+          style={{
+            height: "240px",
+            backgroundImage: `
+              linear-gradient(to right, #7c3aed, #4f46e5),
+              url(${bgImage}),
+              url(${bgImage2})
+            `,
+            backgroundRepeat: "no-repeat, no-repeat, no-repeat",
+            backgroundSize: "cover, 300px, 300px",
+            backgroundPosition: "center, left center, right center",
+            backgroundBlendMode: "overlay"
+          }}
+        >
+          <div className="relative z-10 text-center">
+            <p className="text-lg opacity-90">In-Progress</p>
+            <h2 className="text-6xl font-bold mt-3">
+              {inProgressCount}
+            </h2>
+          </div>
         </div>
 
-        {/* Right: Ticket Statistics */}
-        <div className="flex gap-6">
-          <div className="bg-white bg-opacity-20 rounded-xl px-6 py-4 text-center min-w-[120px]">
-            <p className="text-2xl font-bold">{inProgressCount}</p>
-            <p className="text-sm opacity-90">In Progress</p>
-          </div>
-          <div className="bg-white bg-opacity-20 rounded-xl px-6 py-4 text-center min-w-[120px]">
-            <p className="text-2xl font-bold">{resolvedCount}</p>
-            <p className="text-sm opacity-90">Resolved</p>
+
+        {/* Resolved Card */}
+        <div
+          className="relative rounded-2xl overflow-hidden text-white flex items-center justify-center"
+          style={{
+            height: "240px",
+            backgroundImage: `
+              linear-gradient(to right, #22c55e, #059669),
+              url(${bgImage}),
+              url(${bgImage2})
+            `,
+            backgroundRepeat: "no-repeat, no-repeat, no-repeat",
+            backgroundSize: "cover, 300px, 300px",
+            backgroundPosition: "center, left center, right center",
+            backgroundBlendMode: "overlay"
+          }}
+        >
+          <div className="relative z-10 text-center">
+            <p className="text-lg opacity-90">Resolved</p>
+            <h2 className="text-6xl font-bold mt-3">
+              {resolvedCount}
+            </h2>
           </div>
         </div>
 
       </div>
+
     </section>
   );
 };
